@@ -46,7 +46,7 @@ class MainViewController: UIViewController {
     }
     
     func setup() {
-        title =  NSLocalizedString("Exercises", comment: "Excerises")
+        title =  NSLocalizedString("Exercises", comment: "Exercises")
         navigationController?.navigationBar.prefersLargeTitles = true
         
         DataImporter.shared.fetchExerciseData { [weak self] result in
@@ -58,7 +58,7 @@ class MainViewController: UIViewController {
             case .failure(let error):
                 switch error {
                 case .invalidData:
-                    let alert = UIAlertController(title: "Failed to import data", message: "\(error.localizedDescription)", preferredStyle: .alert)
+                    let alert = UIAlertController(title: "Failed to import data", message: "Data should be a CSV with Date of workout, Exercise Name, Sets, Reps, Weight.", preferredStyle: .alert)
                     alert.addAction(.init(title: "Ok", style: .default, handler: nil))
                     self?.present(alert, animated: true, completion: nil)
                 }
@@ -81,14 +81,12 @@ class MainViewController: UIViewController {
     
 }
 
-
 extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let exercise = exercises[indexPath.row]
         navigationController?.pushViewController(ExerciseViewController(exercise: exercise), animated: true)
     }
 }
-
 
 extension MainViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

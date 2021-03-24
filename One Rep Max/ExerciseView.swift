@@ -12,6 +12,7 @@ class ExerciseView: UIView {
     static let preferredSize = CGSize(width: 343, height: 100)
     override var intrinsicContentSize: CGSize { Self.preferredSize }
 
+    // MARK: UI
     private lazy var contentDetailStackView: UIStackView = {
         let stackView = UIStackView(arrangedSubviews: [titleLabel, subtitleLabel])
         stackView.translatesAutoresizingMaskIntoConstraints = false

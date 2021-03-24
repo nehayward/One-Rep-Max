@@ -16,7 +16,7 @@ class One_Rep_MaxUITests: XCTestCase {
         app = XCUIApplication()
     }
     
-        func testDetailSegue() {
+    func testDetailSegue() {
         app.launch()
         
         let element = app.tables.children(matching: .cell).element(boundBy: 0).staticTexts["Back Squat"]

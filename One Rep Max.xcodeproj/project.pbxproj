@@ -16,7 +16,7 @@
 		016912D2260A559200AD760E /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 016912D1260A559200AD760E /* SwiftUICharts */; };
 		016912D6260A6FD300AD760E /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016912D5260A6FD300AD760E /* ExerciseView.swift */; };
 		016912DB260A716200AD760E /* UIView+UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016912DA260A716200AD760E /* UIView+UIViewRepresentable.swift */; };
-		016912DF260A745D00AD760E /* ExerciseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016912DE260A745D00AD760E /* ExerciseTableCell.swift */; };
+		016912DF260A745D00AD760E /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016912DE260A745D00AD760E /* ExerciseTableViewCell.swift */; };
 		01A4E6C326093A6100BA8A79 /* Dateformatter+ShortDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E6C226093A6100BA8A79 /* Dateformatter+ShortDebug.swift */; };
 		01A4E6C82609460600BA8A79 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E6C72609460600BA8A79 /* ExerciseViewController.swift */; };
 		01C2CAB7260BB45C00A5699B /* OneRepMaxCore in Frameworks */ = {isa = PBXBuildFile; productRef = 01C2CAB6260BB45C00A5699B /* OneRepMaxCore */; };
@@ -44,7 +44,7 @@
 		01090F48260917960021198A /* WorkoutData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WorkoutData.csv; sourceTree = "<group>"; };
 		016912D5260A6FD300AD760E /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		016912DA260A716200AD760E /* UIView+UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+UIViewRepresentable.swift"; sourceTree = "<group>"; };
-		016912DE260A745D00AD760E /* ExerciseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableCell.swift; sourceTree = "<group>"; };
+		016912DE260A745D00AD760E /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
 		01A4E6C226093A6100BA8A79 /* Dateformatter+ShortDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dateformatter+ShortDebug.swift"; sourceTree = "<group>"; };
 		01A4E6C72609460600BA8A79 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 		01C2CAB3260BB3D400A5699B /* OneRepMaxCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OneRepMaxCore; path = ../OneRepMaxCore; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 				01A4E6C126093A4F00BA8A79 /* Extensions */,
 				01090F36260916DB0021198A /* MainViewController.swift */,
 				016912D5260A6FD300AD760E /* ExerciseView.swift */,
-				016912DE260A745D00AD760E /* ExerciseTableCell.swift */,
+				016912DE260A745D00AD760E /* ExerciseTableViewCell.swift */,
 				01A4E6C72609460600BA8A79 /* ExerciseViewController.swift */,
 				01090F4B260917990021198A /* Resources */,
 				01090F3B260916DB0021198A /* Assets.xcassets */,
@@ -258,7 +258,7 @@
 				01A4E6C326093A6100BA8A79 /* Dateformatter+ShortDebug.swift in Sources */,
 				016912DB260A716200AD760E /* UIView+UIViewRepresentable.swift in Sources */,
 				01A4E6C82609460600BA8A79 /* ExerciseViewController.swift in Sources */,
-				016912DF260A745D00AD760E /* ExerciseTableCell.swift in Sources */,
+				016912DF260A745D00AD760E /* ExerciseTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
