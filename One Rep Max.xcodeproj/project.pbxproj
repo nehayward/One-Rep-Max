@@ -47,7 +47,7 @@
 		016912DE260A745D00AD760E /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
 		01A4E6C226093A6100BA8A79 /* Dateformatter+ShortDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dateformatter+ShortDebug.swift"; sourceTree = "<group>"; };
 		01A4E6C72609460600BA8A79 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
-		01C2CAB3260BB3D400A5699B /* OneRepMaxCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OneRepMaxCore; path = ../OneRepMaxCore; sourceTree = "<group>"; };
+		01C2CAB3260BB3D400A5699B /* OneRepMaxCore */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OneRepMaxCore; sourceTree = "<group>"; };
 		01C2CAC2260BCEA700A5699B /* One Rep MaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "One Rep MaxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C2CAC4260BCEA700A5699B /* One_Rep_MaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One_Rep_MaxUITests.swift; sourceTree = "<group>"; };
 		01C2CAC6260BCEA700A5699B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
