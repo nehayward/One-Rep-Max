@@ -1,7 +1,7 @@
 # One Rep Max
 
 <p align="center"/>
-    <img style=" width: 20%;height: auto;" src="Images/Icon.png" />
+    <img style=" width: 100px;height: 100px;" src="Images/Icon.png" />
 </p>
 <p align="center">
     <img src="https://img.shields.io/badge/Swift-5.3-orange.svg" />
@@ -19,6 +19,7 @@ This is a simple app to view the one rep max for an exercise.
 ### iOS
 
 <p align="center"/>
-    <img style=" width: 50%;height: auto;" src="Images/iPhone_Dark.png">
-    <img style=" width: 50%;height: auto;" src="Images/iPhone_Light.png">
+    <img src="Images/IPhone_Dark.png"/>
+    <img src="Images/iPhone_Light.png"/>
+    <img src="Images/iPhone_LandScape.png"/>
 </p>
