@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01090F33260916DB0021198A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01090F32260916DB0021198A /* AppDelegate.swift */; };
+		01090F35260916DB0021198A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01090F34260916DB0021198A /* SceneDelegate.swift */; };
+		01090F37260916DB0021198A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01090F36260916DB0021198A /* MainViewController.swift */; };
+		01090F3C260916DB0021198A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01090F3B260916DB0021198A /* Assets.xcassets */; };
+		01090F3F260916DB0021198A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01090F3D260916DB0021198A /* LaunchScreen.storyboard */; };
+		01090F49260917960021198A /* WorkoutData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 01090F48260917960021198A /* WorkoutData.csv */; };
+		016912D2260A559200AD760E /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 016912D1260A559200AD760E /* SwiftUICharts */; };
+		016912D6260A6FD300AD760E /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016912D5260A6FD300AD760E /* ExerciseView.swift */; };
+		016912DB260A716200AD760E /* UIView+UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016912DA260A716200AD760E /* UIView+UIViewRepresentable.swift */; };
+		016912DF260A745D00AD760E /* ExerciseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016912DE260A745D00AD760E /* ExerciseTableCell.swift */; };
+		01A4E6C326093A6100BA8A79 /* Dateformatter+ShortDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E6C226093A6100BA8A79 /* Dateformatter+ShortDebug.swift */; };
+		01A4E6C82609460600BA8A79 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4E6C72609460600BA8A79 /* ExerciseViewController.swift */; };
+		01C2CAB7260BB45C00A5699B /* OneRepMaxCore in Frameworks */ = {isa = PBXBuildFile; productRef = 01C2CAB6260BB45C00A5699B /* OneRepMaxCore */; };
+		01C2CAC5260BCEA700A5699B /* One_Rep_MaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2CAC4260BCEA700A5699B /* One_Rep_MaxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01C2CAC7260BCEA700A5699B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01090F27260916DA0021198A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01090F2E260916DA0021198A;
+			remoteInfo = "One Rep Max";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01090F2F260916DB0021198A /* One Rep Max.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Rep Max.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01090F32260916DB0021198A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01090F34260916DB0021198A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01090F36260916DB0021198A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		01090F3B260916DB0021198A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01090F3E260916DB0021198A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01090F40260916DB0021198A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01090F48260917960021198A /* WorkoutData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WorkoutData.csv; sourceTree = "<group>"; };
+		016912D5260A6FD300AD760E /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		016912DA260A716200AD760E /* UIView+UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+UIViewRepresentable.swift"; sourceTree = "<group>"; };
+		016912DE260A745D00AD760E /* ExerciseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableCell.swift; sourceTree = "<group>"; };
+		01A4E6C226093A6100BA8A79 /* Dateformatter+ShortDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dateformatter+ShortDebug.swift"; sourceTree = "<group>"; };
+		01A4E6C72609460600BA8A79 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		01C2CAB3260BB3D400A5699B /* OneRepMaxCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OneRepMaxCore; path = ../OneRepMaxCore; sourceTree = "<group>"; };
+		01C2CAC2260BCEA700A5699B /* One Rep MaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "One Rep MaxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2CAC4260BCEA700A5699B /* One_Rep_MaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One_Rep_MaxUITests.swift; sourceTree = "<group>"; };
+		01C2CAC6260BCEA700A5699B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01090F2C260916DA0021198A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016912D2260A559200AD760E /* SwiftUICharts in Frameworks */,
+				01C2CAB7260BB45C00A5699B /* OneRepMaxCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2CABF260BCEA700A5699B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01090F26260916DA0021198A = {
+			isa = PBXGroup;
+			children = (
+				01C2CAB3260BB3D400A5699B /* OneRepMaxCore */,
+				01090F31260916DB0021198A /* One Rep Max */,
+				01C2CAC3260BCEA700A5699B /* One Rep MaxUITests */,
+				01090F30260916DB0021198A /* Products */,
+				01C2CAB5260BB45C00A5699B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01090F30260916DB0021198A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01090F2F260916DB0021198A /* One Rep Max.app */,
+				01C2CAC2260BCEA700A5699B /* One Rep MaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01090F31260916DB0021198A /* One Rep Max */ = {
+			isa = PBXGroup;
+			children = (
+				01090F32260916DB0021198A /* AppDelegate.swift */,
+				01090F34260916DB0021198A /* SceneDelegate.swift */,
+				01A4E6C126093A4F00BA8A79 /* Extensions */,
+				01090F36260916DB0021198A /* MainViewController.swift */,
+				016912D5260A6FD300AD760E /* ExerciseView.swift */,
+				016912DE260A745D00AD760E /* ExerciseTableCell.swift */,
+				01A4E6C72609460600BA8A79 /* ExerciseViewController.swift */,
+				01090F4B260917990021198A /* Resources */,
+				01090F3B260916DB0021198A /* Assets.xcassets */,
+				01090F3D260916DB0021198A /* LaunchScreen.storyboard */,
+				01090F40260916DB0021198A /* Info.plist */,
+			);
+			path = "One Rep Max";
+			sourceTree = "<group>";
+		};
+		01090F4B260917990021198A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01090F48260917960021198A /* WorkoutData.csv */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		01A4E6C126093A4F00BA8A79 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				01A4E6C226093A6100BA8A79 /* Dateformatter+ShortDebug.swift */,
+				016912DA260A716200AD760E /* UIView+UIViewRepresentable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		01C2CAB5260BB45C00A5699B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01C2CAC3260BCEA700A5699B /* One Rep MaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01C2CAC4260BCEA700A5699B /* One_Rep_MaxUITests.swift */,
+				01C2CAC6260BCEA700A5699B /* Info.plist */,
+			);
+			path = "One Rep MaxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01090F2E260916DA0021198A /* One Rep Max */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01090F43260916DB0021198A /* Build configuration list for PBXNativeTarget "One Rep Max" */;
+			buildPhases = (
+				01090F2B260916DA0021198A /* Sources */,
+				01090F2C260916DA0021198A /* Frameworks */,
+				01090F2D260916DA0021198A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "One Rep Max";
+			packageProductDependencies = (
+				016912D1260A559200AD760E /* SwiftUICharts */,
+				01C2CAB6260BB45C00A5699B /* OneRepMaxCore */,
+			);
+			productName = "One Rep Max";
+			productReference = 01090F2F260916DB0021198A /* One Rep Max.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01C2CAC1260BCEA700A5699B /* One Rep MaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2CAC9260BCEA700A5699B /* Build configuration list for PBXNativeTarget "One Rep MaxUITests" */;
+			buildPhases = (
+				01C2CABE260BCEA700A5699B /* Sources */,
+				01C2CABF260BCEA700A5699B /* Frameworks */,
+				01C2CAC0260BCEA700A5699B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01C2CAC8260BCEA700A5699B /* PBXTargetDependency */,
+			);
+			name = "One Rep MaxUITests";
+			productName = "One Rep MaxUITests";
+			productReference = 01C2CAC2260BCEA700A5699B /* One Rep MaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01090F27260916DA0021198A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					01090F2E260916DA0021198A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					01C2CAC1260BCEA700A5699B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 01090F2E260916DA0021198A;
+					};
+				};
+			};
+			buildConfigurationList = 01090F2A260916DA0021198A /* Build configuration list for PBXProject "One Rep Max" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01090F26260916DA0021198A;
+			packageReferences = (
+				016912D0260A559200AD760E /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = 01090F30260916DB0021198A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01090F2E260916DA0021198A /* One Rep Max */,
+				01C2CAC1260BCEA700A5699B /* One Rep MaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01090F2D260916DA0021198A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01090F3F260916DB0021198A /* LaunchScreen.storyboard in Resources */,
+				01090F3C260916DB0021198A /* Assets.xcassets in Resources */,
+				01090F49260917960021198A /* WorkoutData.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2CAC0260BCEA700A5699B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01090F2B260916DA0021198A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01090F37260916DB0021198A /* MainViewController.swift in Sources */,
+				01090F33260916DB0021198A /* AppDelegate.swift in Sources */,
+				01090F35260916DB0021198A /* SceneDelegate.swift in Sources */,
+				016912D6260A6FD300AD760E /* ExerciseView.swift in Sources */,
+				01A4E6C326093A6100BA8A79 /* Dateformatter+ShortDebug.swift in Sources */,
+				016912DB260A716200AD760E /* UIView+UIViewRepresentable.swift in Sources */,
+				01A4E6C82609460600BA8A79 /* ExerciseViewController.swift in Sources */,
+				016912DF260A745D00AD760E /* ExerciseTableCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2CABE260BCEA700A5699B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2CAC5260BCEA700A5699B /* One_Rep_MaxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01C2CAC8260BCEA700A5699B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01090F2E260916DA0021198A /* One Rep Max */;
+			targetProxy = 01C2CAC7260BCEA700A5699B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01090F3D260916DB0021198A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01090F3E260916DB0021198A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01090F41260916DB0021198A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01090F42260916DB0021198A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01090F44260916DB0021198A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "One Rep Max/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nick.One-Rep-Max";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01090F45260916DB0021198A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "One Rep Max/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nick.One-Rep-Max";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01C2CACA260BCEA700A5699B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "One Rep MaxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nick.One-Rep-MaxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "One Rep Max";
+			};
+			name = Debug;
+		};
+		01C2CACB260BCEA700A5699B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "One Rep MaxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nick.One-Rep-MaxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "One Rep Max";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01090F2A260916DA0021198A /* Build configuration list for PBXProject "One Rep Max" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01090F41260916DB0021198A /* Debug */,
+				01090F42260916DB0021198A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01090F43260916DB0021198A /* Build configuration list for PBXNativeTarget "One Rep Max" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01090F44260916DB0021198A /* Debug */,
+				01090F45260916DB0021198A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01C2CAC9260BCEA700A5699B /* Build configuration list for PBXNativeTarget "One Rep MaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2CACA260BCEA700A5699B /* Debug */,
+				01C2CACB260BCEA700A5699B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		016912D0260A559200AD760E /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		016912D1260A559200AD760E /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 016912D0260A559200AD760E /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		01C2CAB6260BB45C00A5699B /* OneRepMaxCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OneRepMaxCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 01090F27260916DA0021198A /* Project object */;
+}
